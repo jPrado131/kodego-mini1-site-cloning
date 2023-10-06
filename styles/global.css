@@ -1,0 +1,154 @@
+/* ========
+Global
+======== */
+
+* {
+    transition: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+blockquote,
+figure,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    transition-duration: 0;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:not(.border),
+button,
+.button {
+    color: inherit;
+}
+
+img[data-src] {
+    opacity: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    background: none;
+    border: 0;
+    border-color: rgba(0, 0, 0, 0);
+    font: inherit;
+    padding: 0;
+}
+
+main {
+    padding-top: 82px;
+}
+
+body {
+    font: 16px/1 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    z-index: 50;
+    width: 100%;
+    height: 82px;
+    box-sizing: border-box;
+    color: white;
+}
+
+header nav {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0 47px;
+}
+
+header nav li {
+    height: 100%;
+    position: relative;
+    float: left;
+}
+
+header nav a {
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 82px;
+    padding: 0 18px;
+}
+
+header nav li.selected a {
+    color: #f9a11b;
+}
+
+header nav .logo svg {
+    margin-top: 23px;
+}
+
+header nav .search {
+    width: 320px;
+    padding: 19px 0;
+    margin: 0 18px 0 12px;
+}
+
+header nav .search .icon {
+    position: absolute;
+    top: 29px;
+    right: 13px;
+    z-index: 20;
+    width: 24px;
+    height: 24px;
+}
+
+header nav .search input {
+    width: 100%;
+    height: 44px;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 110%;
+    font-weight: 300;
+    margin-bottom: 18px;
+}
+
+header nav .account {
+    position: absolute;
+    right: 0;
+}
+
+header nav .account li {
+    float: right;
+}
+
+header nav li.sign-in {
+    margin-right: 48px;
+}
+
+header nav a .border {
+    display: inline;
+    border: 2px solid #f9a11b;
+    padding: 6px 16px;
+}
+
+@media only screen and (min-width: 1920px) {
+
+    .main-wrapper {
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+
+}

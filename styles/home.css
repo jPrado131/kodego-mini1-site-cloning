@@ -1,0 +1,95 @@
+/* ==========
+Homepage
+========== */
+.hero {
+    height: 35vh;
+    position: relative;
+    margin-top: -82px;
+}
+
+.hero.homepage .background {
+    background-image: url("../images/hero-1920x1080.jpg");
+    opacity: 0.7;
+}
+
+.hero.homepage .content {
+    margin-top: 2.5vw;
+}
+
+.hero.homepage .tagline h1 .first-line {
+    font-size: 3.9vw;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    line-height: 140%;
+}
+
+.hero.homepage .tagline h1 .second-line {
+    font-size: 3.6vw;
+    letter-spacing: -0.02em;
+    font-weight: 300;
+}
+
+.hero.homepage .tagline .button {
+    margin-top: 3.3vw;
+    margin-right: 2vw;
+}
+
+.jpx-listAllMovies {
+    padding-left: 60px;
+}
+.carousel-item .img-box {
+    display: flex;
+}
+
+.carousel-item .img-box .img-wrap{
+    margin-right: 10px;
+}
+.carousel-item .img-box .img-wrap .content{ 
+    padding: 14px 16px 16px;
+    background: #fff;
+    color: rgba(0,0,0,.8);
+    min-height: 68px;
+}.carousel-item .img-box .img-wrap .content .title {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-weight: 600;
+}
+.carousel-item .img-box .img-wrap:hover .content .title {
+    color: #0089fd;
+} 
+.carousel-item .img-box .img-wrap img{ 
+    -webkit-filter: brightness(100%);
+    filter: brightness(100%);
+    transition: opacity .4s ease-out,filter .3s,-webkit-filter .3s;
+}
+.carousel-item .img-box .img-wrap:hover img{
+    -webkit-filter: brightness(120%);
+    filter: brightness(120%);
+}
+.carousel-control-prev ,
+.carousel-control-next {
+    position: absolute;
+    background: #0082f1;
+    opacity: 0;
+    height: 100%;
+    top: 0;
+    width: 51px;
+    z-index: 10;
+    cursor: pointer;
+    transition: opacity .2s;
+}
+.jpx-listAllMovies:hover .carousel-control-next,
+.jpx-listAllMovies:hover .carousel-control-prev{
+    opacity: 1;
+}
+
+header .main .mobile-menu {
+    display:none;
+}
+.offcanvas {
+    background: #333;
+}
+.navbar {
+    padding-top:0;
+}

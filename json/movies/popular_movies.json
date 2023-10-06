@@ -1,0 +1,94 @@
+{
+  "movieList": [
+    {
+      "title": "Palmer",
+      "imageDir": "images/posters/poster-193x290--BJWqCc.jpg",
+      "url": "#"
+    },      
+    {
+      "title": "The Fall Guy",
+      "imageDir": "images/posters/poster-193x290--aSuORa.jpg",
+      "url": "#"
+    },   
+    {
+      "title": "Fast X",
+      "imageDir": "images/posters/poster-193x290--aLWblR.jpg",
+      "url": "#"
+    },
+    {
+      "title": "Black Bird",
+      "imageDir": "images/posters/poster-193x290--8Qs6nf.jpg",
+      "url": "#"
+    },
+    {
+      "title": "Ted Lasso",
+      "imageDir": "images/posters/poster-193x290--1HWawq.jpg",
+      "url": "#"
+    },
+    {
+      "title": "Spider Man",
+      "imageDir": "images/posters/poster-193x290--GRMB7I.jpg",
+      "url": "#"
+    },
+    {
+      "title": "Gifted",
+      "imageDir": "images/posters/poster-193x290.jpg",
+      "url": "#"
+    },
+    {
+      "title": "Apocalypto",
+      "imageDir": "images/posters/poster-193x290--0tAXXl.jpg",
+      "url": "#"
+    },
+    {
+      "title": "Grey Hound",
+      "imageDir": "images/posters/poster-193x290--3ubtiT.jpg",
+      "url": "#"
+    },
+    {
+      "title": "Friday",
+      "imageDir": "images/posters/poster-193x290--4bdixy.jpg",
+      "url": "#"
+    },
+    {
+      "title": "Good Burger",
+      "imageDir": "images/posters/poster-193x290--4LtGV0.jpg",
+      "url": "#"
+    },
+    {
+      "title": "Daisy Jones & The Six",
+      "imageDir": "images/posters/poster-193x290--5hnJLl.jpg",
+      "url": "#"
+    },
+    {
+      "title": "The Passion of The Christ",
+      "imageDir": "images/posters/poster-193x290--5jS8hr.jpg",
+      "url": "#"
+    },
+    {
+      "title": "The Last Thing He Told Me",
+      "imageDir": "images/posters/poster-193x290--5tD2eW.jpg",
+      "url": "#"
+    },
+    {
+      "title": "Ghosted",
+      "imageDir": "images/posters/poster-193x290--7gVJkA.jpg",
+      "url": "#"
+    },
+    {
+      "title": "Boo2!",
+      "imageDir": "images/posters/poster-193x290--7rc1tK.jpg",
+      "url": "#"
+    },
+    {
+      "title": "Spider Man",
+      "imageDir": "images/posters/poster-193x290--GRMB7I.jpg",
+      "url": "#"
+    },
+    {
+      "title": "Gifted",
+      "imageDir": "images/posters/poster-193x290.jpg",
+      "url": "#"
+    }
+  ]
+}
